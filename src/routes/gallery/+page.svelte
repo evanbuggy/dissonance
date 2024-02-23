@@ -1,55 +1,45 @@
 <script>
     import gh from "$lib/images/github.svg";
+    import twt from "$lib/images/twitter.svg";
+    import yt from "$lib/images/youtube.png";
+    import twitch from "$lib/images/twitch.svg";
 </script>
 
-<h1>Gallery</h1>
+<h1>Cool links!</h1>
 
-<div class = "container">
-    <img class = "leftImg" src = {gh} alt = "Github Logo.">
-    <div class = "textBlockRight">
-        <a class = "rightText" href="gallery/scribbles">Lorem Ipsum</a>
-        <p>Lorem Ipsum</p>
-    </div>
-    <hr>
+<div>
+    <img src = {gh} alt = "Github Logo.">
+    <a href="./gallery/old/0/">Old Gallery</a>
 </div>
+<p>If I ever make any repositories that are actually public!</p>
 
-<div class = "container">
-    <div class = "textBlockLeft">
-        <a class = "leftText" href="gallery/scribbles">Lorem Ipsum</a>
-        <p>Lorem Ipsum</p>
-    </div>
-    <img class = "rightImg" src = {gh} alt = "Github Logo.">
-    <hr>
+<div>
+    <img src = {twt} alt = "Twitter Logo.">
+    <a href="https://twitter.com/lnfiniteAzure">Twitter</a>
 </div>
+<p>The social media I am most active on, that absolutely does not officially go by any other name.</p>
 
-<div class = "container">
-    <img class = "leftImg" src = {gh} alt = "Github Logo.">
-    <div class = "textBlockRight">
-        <a class = "rightText" href="gallery/scribbles">Lorem Ipsum</a>
-        <p>Lorem Ipsum</p>
-    </div>
-    <hr>
+<div>
+    <img src = {yt} alt = "YouTube Logo.">
+    <a href="https://youtube.com/Buggy_Evan">YouTube</a>
 </div>
+<p>Watch all of my old embarassing videos, or even one of my new ones!</p>
+
+<div>
+    <img src = {twitch} alt = "Twitch Logo.">
+    <a href="https://twitch.tv/evanbuggy">Twitch</a>
+</div>
+<p>I stream random stuff every blue moon.</p>
 
 <style>
-    .container {
-        max-width: 600px;
+    div {
+        max-width: 300px;
         margin: auto;
     }
 
-    .textBlockRight {
+    img {
+        max-height: 100px;
         display: inline;
-    }
-
-    .leftImg {
-        max-height: 200px;
-        display: inline;
-    }
-
-    .rightImg {
-        max-height: 200px;
-        display: inline;
-        float: right;
     }
 
     h1 {
@@ -59,31 +49,21 @@
         text-align: center;
     }
 
-    .leftText {
+    a {
         font-family: "ACNH";
-        font-size: clamp(1rem, 4vw, 2rem); 
-        display: inline;
-        float: left;
-        color: #403d3d;
-    }
-
-    .rightText {
-        font-family: "ACNH";
-        font-size: clamp(1rem, 4vw, 2rem); 
+        font-size: 30px;
+        text-align: center;
         display: inline;
         float: right;
         color: #403d3d;
-    }
-
-    hr {
-        color: black;
+        margin-top: 25px;
     }
 
     p {
         color: #403d3d;
         font-family: "ACNH";
         line-height: 28px;
-        display: block;
+        text-align: center;
     }
 
     @font-face {
