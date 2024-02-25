@@ -1,7 +1,6 @@
 <script>
-    import Navbar from "./Navbar.svelte";
-    import Logo from "./Logo.svelte";
-    import src from "$lib/images/kofi.webp";
+    import Navbar from "$lib/ui/Navbar.svelte";
+    import Logo from "$lib/ui/Logo.svelte";
 </script>
 
 <Logo/>

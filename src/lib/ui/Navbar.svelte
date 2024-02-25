@@ -28,7 +28,12 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-family: "FOT-Seurat Pro B", monospace;
+        font-family: ACNH;
+    }
+
+    @font-face {
+        font-family: ACNH;
+        src: url("$lib/fonts/FOT-Seurat_Pro_B.otf") format("opentype");
     }
 
     li a:hover {
