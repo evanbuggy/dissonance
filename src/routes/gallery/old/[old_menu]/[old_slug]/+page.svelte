@@ -3,7 +3,9 @@
 </script>
 
 <div>
-    <img src="../../../src/lib/images/old/{data.pic.img}" alt={data.pic.alt}>
+    <h1>{data.pic.date}</h1>
+    <img src="../../../src/lib/images/old/{data.pic.img}" alt={data.pic.text}>
+    <p>{data.pic.text}</p>
 </div>
 
 <style>
@@ -22,5 +24,17 @@
     @font-face {
         font-family: ACNH;
         src: url("$lib/fonts/FOT-Seurat_Pro_B.otf") format("opentype");
+    }
+
+    h1 {
+        color: #403d3d;
+        font-family: "ACNH";
+        line-height: 45px;
+        text-align: center;
+    }
+
+    p {
+        color: #403d3d;
+        font-family: "ACNH";
     }
 </style>

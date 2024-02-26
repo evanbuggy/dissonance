@@ -5,9 +5,9 @@
 <h1>Old Gallery</h1>
 
 <div class="container">
-    {#each data.summaries as { old_slug, date, preview_img }}
+    {#each data.summaries as { old_slug, date, img }}
         <a href="/gallery/old/0/{old_slug}">
-            <div class = "oldPic" style="background-image: url('../../src/lib/images/old/preview/{preview_img}');">
+            <div class = "oldPic" style="background-image: url('../../src/lib/images/old/{img}');">
                 <p class = "oldDate">{date}</p>
             </div>
         </a>
@@ -15,12 +15,11 @@
 </div>
 
 <div class = "btnSpace">
-    <button class = "backBtn" onclick = "location.href = '/blog/{data.back}'" type = button >Back</button>
-    <button class = "nextBtn" onclick = "location.href = '/blog/{data.next}'" type = button >Next</button>
+    <button class = "backBtn" onclick = "location.href = '/gallery/old/{data.back}'" type = button >Back</button>
+    <button class = "nextBtn" onclick = "location.href = '/gallery/old/{data.next}'" type = button >Next</button>
 </div>
 
 <style>
-
     .container {
         max-width: 620px;
         display: flex;
@@ -37,23 +36,23 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        margin: 5px;
+        margin: 10px;
         transition: 0.5s;
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 280px;
         flex: 50%
     }
 
     .oldPic:hover {
         transform: scale(1.1);
+        box-shadow: 0px 0px 20px #000000;
     }
 
     p {
         font-family: "ACNH";
         color: #FFFFFF;
-        margin-top: 0px;
-        margin-bottom: 0px;
         text-shadow: #000000 1px 0 10px;
+        margin-left: 10px;
     }
 
     a {

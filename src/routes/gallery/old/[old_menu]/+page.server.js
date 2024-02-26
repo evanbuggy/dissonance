@@ -11,7 +11,7 @@ export function load({ params }) {
 
 	for (let i = parseInt(params.old_menu); i < (parseInt(params.old_menu) + 10); i++) {
 		try {
-			let newObj = {old_slug: old_pics[i].old_slug, date: old_pics[i].date, preview_img: old_pics[i].preview_img};
+			let newObj = {old_slug: old_pics[i].old_slug, date: old_pics[i].date, img: old_pics[i].img};
 			summaries.push(newObj);
 		}
 		catch (e) {
