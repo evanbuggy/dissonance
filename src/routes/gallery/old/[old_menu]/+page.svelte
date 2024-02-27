@@ -7,7 +7,7 @@
 <div class="container">
     {#each data.summaries as { old_slug, date, img }}
         <a href="/gallery/old/0/{old_slug}">
-            <div class = "oldPic" style="background-image: url('../../src/lib/images/old/{img}');">
+            <div class = "oldPic" style="background-image: url(/images/old/{img})">
                 <p class = "oldDate">{date}</p>
             </div>
         </a>
@@ -46,13 +46,6 @@
     .oldPic:hover {
         transform: scale(1.1);
         box-shadow: 0px 0px 20px #000000;
-    }
-
-    p {
-        font-family: "ACNH";
-        color: #FFFFFF;
-        text-shadow: #000000 1px 0 10px;
-        margin-left: 10px;
     }
 
     a {
