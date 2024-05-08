@@ -6,7 +6,7 @@ export const posts = [
 		blurb: "This is a single line of text. Better be small.",
 		bg_img: "WonderTurnaroundHeadBlender.gif",
 		content:
-			'<p>This is a test blog post.</p><img src="../../src/lib/images/WonderTurnaroundHeadBlender.gif" alt=Test>'
+			'<style>img {display: block; margin-left: auto; margin-right: auto;}</style> <p>This is a test blog post.</p><img src="/images/blog/mrFresh/bbh.png" alt=Test>'
 	},
 
 	{

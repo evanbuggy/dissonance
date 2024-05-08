@@ -6,7 +6,7 @@
 
 {#each data.summaries as { slug, title, date, blurb, bg_img }}
     <a href="/blog/0/{slug}">
-        <div class = "blogDiv" style="background-image: url('../../src/lib/images/bg/{bg_img}');">
+        <div class = "blogDiv" style="background-image: url('/images/bg/{bg_img}');">
             <h2 class = "blogTitle">{title}</h2>
             <p class = "blogDate">{date}</p><hr><p>{blurb}</p>
         </div>

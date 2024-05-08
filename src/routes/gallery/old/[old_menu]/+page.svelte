@@ -55,6 +55,9 @@
 
     .oldDate {
         font-family: "ACNH";
+        margin-left: 10px;
+        margin-top: 10px;
+        text-shadow: #000000 1px 0 10px;
     }
 
     h1 {

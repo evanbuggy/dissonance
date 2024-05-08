@@ -4,7 +4,7 @@
 
 <div>
     <h1>{data.pic.date}</h1>
-    <img src="/old/{data.pic.img}" alt={data.pic.text}>
+    <img src="/images/old/{data.pic.img}" alt={data.pic.text}>
     <p>{data.pic.text}</p>
 </div>
 
