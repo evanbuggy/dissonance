@@ -6,6 +6,7 @@
 	import LinkBlock from "$lib/ui/LinkBlock.svelte";
 </script>
 
+<title>Links</title>
 <h1>Cool links!</h1>
 
 <LinkBlock

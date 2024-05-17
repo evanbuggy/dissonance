@@ -6,7 +6,7 @@
 <Logo/>
 <Navbar/>
 
-<div>
+<div class = "main">
     <slot />
 </div>
 <button class = "rainbowBtn" onclick = "location.href = 'https://ko-fi.com/buggy'" type = button >Donate!</button>
@@ -27,7 +27,7 @@
         to {background-position: 200px 200px;}
     }
 
-    div {
+    .main {
         margin: auto;
         max-width: 1000px;
         padding: 30px;

@@ -1,68 +1,24 @@
 <script>
-    import gh from "$lib/images/github.svg";
-    import twt from "$lib/images/twitter.svg";
-    import yt from "$lib/images/youtube.png";
-    import twitch from "$lib/images/twitch.svg";
+    import old from "$lib/images/gallery_old_icon.png";
+    import GalleryBlock from "$lib/ui/ItemBlock.svelte";
 </script>
 
-<h1>Cool links!</h1>
+<title>Gallery</title>
+<h1>Gallery</h1>
 
-<div>
-    <img src = {gh} alt = "Github Logo.">
-    <a href="./gallery/old/0/">Old Gallery</a>
-</div>
-<p>If I ever make any repositories that are actually public!</p>
-
-<div>
-    <img src = {twt} alt = "Twitter Logo.">
-    <a href="https://twitter.com/lnfiniteAzure">Twitter</a>
-</div>
-<p>The social media I am most active on, that absolutely does not officially go by any other name.</p>
-
-<div>
-    <img src = {yt} alt = "YouTube Logo.">
-    <a href="https://youtube.com/Buggy_Evan">YouTube</a>
-</div>
-<p>Watch all of my old embarassing videos, or even one of my new ones!</p>
-
-<div>
-    <img src = {twitch} alt = "Twitch Logo.">
-    <a href="https://twitch.tv/evanbuggy">Twitch</a>
-</div>
-<p>I stream random stuff every blue moon.</p>
+<GalleryBlock
+    title="My Old Drawings"
+    alt="Logo for my gallery of old drawings."
+    href="/gallery/old/0"
+    src={old}
+    text="This is a gallery of a lot of old pieces I did when I was younger. A lot of them are from when I was still at school. I posted them to social media as a hobby for a long time. All of it is very, very embarassing to look at, and I have excluded a lot of pieces since they are too terrible for a human to lay eyes on.">
+</GalleryBlock>
 
 <style>
-    div {
-        max-width: 300px;
-        margin: auto;
-    }
-
-    img {
-        max-height: 100px;
-        display: inline;
-    }
-
     h1 {
         color: #403d3d;
         font-family: "ACNH";
         line-height: 45px;
-        text-align: center;
-    }
-
-    a {
-        font-family: "ACNH";
-        font-size: 30px;
-        text-align: center;
-        display: inline;
-        float: right;
-        color: #403d3d;
-        margin-top: 25px;
-    }
-
-    p {
-        color: #403d3d;
-        font-family: "ACNH";
-        line-height: 28px;
         text-align: center;
     }
 

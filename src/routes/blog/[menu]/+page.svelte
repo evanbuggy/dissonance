@@ -2,6 +2,7 @@
 	export let data;
 </script>
 
+<title>Blog</title>
 <h1>Blog</h1>
 
 {#each data.summaries as { slug, title, date, blurb, bg_img }}

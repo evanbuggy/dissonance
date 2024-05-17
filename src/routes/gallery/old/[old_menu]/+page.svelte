@@ -2,7 +2,8 @@
 	export let data;
 </script>
 
-<h1>Old Gallery</h1>
+<title>Old Drawings</title>
+<h1>My Old Drawings</h1>
 
 <div class="container">
     {#each data.summaries as { old_slug, date, img }}

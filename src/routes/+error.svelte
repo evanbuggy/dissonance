@@ -1,9 +1,13 @@
-<title>Home</title>
+<script>
+    import buggy from "$lib/images/weeee.gif"
+    import { page } from '$app/stores';
+</script>
 
-<h1>Welcome!</h1>
-<p>Welcome to my website! Ran and owned by me, Buggy. This site will be home to my many ramblings of gaming,
-    computer science stuff, art, and whatever other stuff I still have on my hard drive. We hope you enjoy your stay...
-</p>
+<title>{$page.status}</title>
+<h1>{$page.status}</h1>
+
+<p>{$page.error.message}!</p>
+<img src={buggy} alt="weeee!">
 
 <style>
     h1 {
@@ -14,9 +18,16 @@
     }
 
     p {
+        text-align: center;
         color: #403d3d;
         font-family: "ACNH";
         line-height: 28px;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     @font-face {

@@ -2,6 +2,8 @@
 	export let data;
 </script>
 
+<title>{data.pic.date}</title>
+
 <div>
     <h1>{data.pic.date}</h1>
     <img src="/images/old/{data.pic.img}" alt={data.pic.text}>
