@@ -2,7 +2,7 @@
 node_modules
 /build
 /.svelte-kit
-/static/downloads
+/static
 /package
 .env
 .env.*
