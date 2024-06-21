@@ -4,15 +4,7 @@
 </script>
 
 <title>Downloads</title>
-<h1>Downloads</h1>
-
-<DLBlock
-    title="mario_kart_reanimated_mega_pack.zip"
-    alt="A scenic shot of mario_kart_reanimated."
-    link="downloads/mario_kart_reanimated_mega_pack.zip"
-    src={mkr}
-    text="This is a collection of versions of the map, mario_kart_reanimated, which I made as an edit of mario_kart_d_v30 for the Team Fabulous 2 Reanimated project. It includes the original map packed with assets, a deathmatch version for Open Fortress, and a version compiled with HDR.">
-</DLBlock>
+<h1>In progress...</h1>
 
 <style>
     h1 {
