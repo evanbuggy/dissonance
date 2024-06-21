@@ -1,8 +1,8 @@
 .DS_Store
 node_modules
+/static
 /build
 /.svelte-kit
-static/
 /package
 .env
 .env.*
