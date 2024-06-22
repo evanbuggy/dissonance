@@ -1,8 +1,7 @@
 <title>Home</title>
 
 <h1>Welcome!</h1>
-<p>Welcome to my website! Ran and owned by me, Buggy. This site will be home to my many ramblings of gaming,
-    computer science stuff, art, and whatever other stuff I still have on my hard drive. We hope you enjoy your stay...
+<p>Welcome to my website! Ran and owned by me, Buggy. This site is currently a WIP, but it will be finished hopefully very soon as of this writing. This text is soon to be replaced.
 </p>
 
 <style>
