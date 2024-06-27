@@ -23,10 +23,13 @@
         flex-wrap: wrap;
         max-width: 500px;
         margin: auto;
+        margin-bottom: 20px;
     }
 
     img {
+        image-rendering: -moz-crisp-edges;
         max-width: 200px;
+        width: 200px;
     }
 
     .logo {
@@ -40,7 +43,6 @@
         font-size: 24px;
         line-height: 26px;
         color: #403d3d;
-        float: right;
     }
 
     .textbox {

@@ -5,6 +5,7 @@
         <li><a href="/downloads">Downloads</a></li>
         <li><a href="/gallery">Gallery</a></li>
         <li><a href="/links">Links</a></li>
+        <li><a href="/tf2">TF2 Server</a></li>
     </ul> 
 </div>
 

@@ -3,6 +3,7 @@
     import twt from "$lib/images/twitter.svg";
     import yt from "$lib/images/youtube.png";
     import twitch from "$lib/images/twitch.svg";
+    import sm64 from "$lib/images/sm64.webp";
 	import LinkBlock from "$lib/ui/LinkBlock.svelte";
 </script>
 
@@ -39,6 +40,14 @@
     href="https://twitch.tv/evanbuggy"
     src={twitch}
     text="I stream random stuff every blue moon.">
+</LinkBlock>
+
+<LinkBlock
+    title="RHDC"
+    alt="This guy!"
+    href="https://romhacking.com/user/Buggy"
+    src={sm64}
+    text="Some of my old Super Mario 64 ROM Hacks, and maybe some new ones?">
 </LinkBlock>
 
 <style>
